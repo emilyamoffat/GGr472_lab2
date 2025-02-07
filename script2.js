@@ -22,4 +22,5 @@ map.addSource('buildings-data', {
     }
     });
 
+    C:\Users\emily\OneDrive\Documents\GitHub\GGr472_lab2\script2.js
     
