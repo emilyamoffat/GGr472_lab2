@@ -1,6 +1,73 @@
-.map-container {
-    position: absolute;
-    top: 0;
-    bottom: 0;
+/* Page Background */
+body {
+    background-color: #d4d9a3;
+    color: white;
+}
+
+/* Header with image */
+.header-section {
+    height: 30vh;
     width: 100%;
-    }
+    background: url('https://images.unsplash.com/photo-1483728788451-2708e0270131?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    color: #5c3621;
+    text-shadow: 2px 2px 5px rgba(232, 223, 223, 0.8);
+}
+
+/*map*/
+.map-container {
+    width: 100%;
+    max-width: 900px; 
+    height: 500px; 
+    border: 2px solid #45562d; 
+    margin: 20px auto;
+    display: block;
+}
+#my-map {
+    width: 600px; 
+    height: 400px; 
+    border: 2px solid #45562d;
+}
+
+/*legend */
+.legend-box {
+    background-color: #ffffff; 
+    padding: 15px;
+    border-radius: 8px;
+    color: #555 !important; 
+}
+
+.legend-box h5 {
+    color: #555 !important; 
+    font-weight: bold;
+}
+
+.legend-box ul {
+    color: #555 !important; 
+}
+
+.legend-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    border-radius: 50%;
+}
+
+/* matching layer Colours */
+.fountain {
+    background-color: #6495ed !important; 
+}
+
+.park {
+    background-color: #556b2f !important; 
+}
